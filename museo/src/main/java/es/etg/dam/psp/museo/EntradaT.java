@@ -4,7 +4,8 @@ public class EntradaT implements Runnable{
     
     @Override
     public void run() {
-        ContadorMuseo.num_personas++;
+        ContadorMuseo contador = ContadorMuseo.getContadorMuseo();
+        System.out.println(contador.registro(this));
     }
     
 }

@@ -10,7 +10,7 @@ public class Museo {
                 gestionSalidas();
             }
         }
-        System.out.println(ContadorMuseo.num_personas);
+
     }
 
     public static void gestionEntradas(){
