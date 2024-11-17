@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import es.etg.dam.psp.museo.ContadorMuseo;
 import es.etg.dam.psp.museo.Museo;
+import es.etg.dam.psp.museo.data.ContadorMuseo;
 
 class MuseoTest {
 
@@ -17,7 +17,7 @@ class MuseoTest {
     @Test
     void testGestionEntradas() throws InterruptedException {
         Museo gestion = new Museo();
-        gestion.gestionEntradas();
+        gestion.gestionarEntradas();
 
         Thread.sleep(1000);
 
@@ -28,7 +28,7 @@ class MuseoTest {
     void testGestionSalidas() throws InterruptedException {
         Museo gestion = new Museo();
 
-        gestion.gestionSalidas();
+        gestion.gestionarSalidas();
         Thread.sleep(1000);
 
         assertEquals(ContadorMuseo.NUMERO_VISITANTES_INICIO - Museo.NUMERO_SALIDAS, ContadorMuseo.contador);
@@ -38,8 +38,8 @@ class MuseoTest {
     void testEntradasYSalidas() throws InterruptedException {
         Museo gestion = new Museo();
 
-        gestion.gestionEntradas();
-        gestion.gestionSalidas();
+        gestion.gestionarEntradas();
+        gestion.gestionarSalidas();
         Thread.sleep(2000);
 
         int esperado = ContadorMuseo.NUMERO_VISITANTES_INICIO + Museo.NUMERO_ENTRADAS - Museo.NUMERO_SALIDAS;

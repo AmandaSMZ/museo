@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MuseoTest" time="4.155" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MuseoTest" time="4.143" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\amand\AppData\Local\Temp\surefire4455362050483086294\surefirebooter-20241117110209458_3.jar C:\Users\amand\AppData\Local\Temp\surefire4455362050483086294 2024-11-17T11-02-09_294-jvmRun1 surefire-20241117110209458_1tmp surefire_0-20241117110209458_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\amand\AppData\Local\Temp\surefire14926395426890745378\surefirebooter-20241117113027203_3.jar C:\Users\amand\AppData\Local\Temp\surefire14926395426890745378 2024-11-17T11-30-26_930-jvmRun1 surefire-20241117113027203_1tmp surefire_0-20241117113027203_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="MuseoTest"/>
     <property name="surefire.test.class.path" value="C:\Users\amand\OneDrive\Escritorio\2DAM\ProgServProc\carpetaCompartida\museo\museo\target\test-classes;C:\Users\amand\OneDrive\Escritorio\2DAM\ProgServProc\carpetaCompartida\museo\museo\target\classes;C:\Users\amand\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\amand\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\amand\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\amand\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\amand\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\amand\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\amand\AppData\Local\Temp\surefire4455362050483086294\surefirebooter-20241117110209458_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\amand\AppData\Local\Temp\surefire14926395426890745378\surefirebooter-20241117113027203_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -60,63 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testGestionSalidas" classname="MuseoTest" time="1.07">
-    <system-out><![CDATA[99
-98
-97
-96
-94
-95
-93
-92
-88
-89
-87
-86
-85
-91
-90
-]]></system-out>
-  </testcase>
-  <testcase name="testGestionEntradas" classname="MuseoTest" time="1.021">
-    <system-out><![CDATA[102
-101
-103
-104
-105
-106
-107
-108
-109
-110
-]]></system-out>
-  </testcase>
-  <testcase name="testEntradasYSalidas" classname="MuseoTest" time="2.024">
-    <system-out><![CDATA[101
-102
-103
-104
-105
-104
-105
-106
-107
-106
-107
-106
-105
-104
-103
-104
-103
-102
-101
-99
-100
-98
-96
-97
-95
-]]></system-out>
-  </testcase>
+  <testcase name="testGestionSalidas" classname="MuseoTest" time="1.073"/>
+  <testcase name="testGestionEntradas" classname="MuseoTest" time="1.01"/>
+  <testcase name="testEntradasYSalidas" classname="MuseoTest" time="2.026"/>
 </testsuite>
