@@ -13,14 +13,14 @@ public class Museo {
 
     }
 
-    public static void gestionEntradas(){
+    public static synchronized void gestionEntradas(){
 
         Thread entrada = new Thread(new EntradaT());
         entrada.start();
         
     }
 
-    public static void gestionSalidas(){
+    public static synchronized void gestionSalidas(){
 
         Thread salida = new Thread(new SalidaT());
         salida.start();

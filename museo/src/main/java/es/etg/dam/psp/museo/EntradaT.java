@@ -1,11 +1,6 @@
 package es.etg.dam.psp.museo;
 
-public class EntradaT implements Runnable{
+public class EntradaT extends RegistroT {
     
-    @Override
-    public void run() {
-        ContadorMuseo contador = ContadorMuseo.getContadorMuseo();
-        System.out.println(contador.registro(this));
-    }
     
 }
